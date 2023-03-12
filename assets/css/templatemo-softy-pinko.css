@@ -862,8 +862,19 @@ features
 .home-feature {
   padding-bottom: 0px;
   padding-top: 30px;
-  margin-top: -220px;
+  margin-top: -190px;
   z-index: 9;
+}
+@media (max-height: 800px) {
+   .home-feature {
+     padding-bottom: 0px;
+     padding-top: 0px;
+     margin-top: -100px;
+   }
+   .start-img {
+     max-width: 45%;
+     max-height: 45%;
+   }
 }
 
 @media (max-width: 991px) {
