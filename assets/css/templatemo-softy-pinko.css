@@ -1251,7 +1251,7 @@ pricing
   border-radius: 20px;
   margin-bottom: 30px;
   margin-top: 20px;
-  padding: 30px 0px 40px 0px;
+  padding: 30px 20px 40px 20px;
 }
 
 .pricing-item.active .pricing-header {
