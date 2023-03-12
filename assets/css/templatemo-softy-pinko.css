@@ -311,7 +311,8 @@ body {
 }
 
 .start-img {
-    height: auto !important;
+    max-width: 100%;
+    max-height: auto !important;
 }
 
 @media (max-width:767px) {
@@ -331,13 +332,6 @@ body {
     .start-img {
         max-width: 50%;
         max-height: 50%;
-    }
-}
-
-@media (min-width:1200px) {
-    .start-img {
-        max-width: 100%;
-        height: auto !important;
     }
 }
 
